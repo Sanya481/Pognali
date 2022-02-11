@@ -1,7 +1,7 @@
-# Личный проект «{{projectTitle}}» 
+# Личный проект «Погнали» 
 
-* Студент: [{{userName}}]({{userProfile}}).
-* Наставник: `Неизвестно`.
+* Студент: [Александр Еремеев](https://up.htmlacademy.ru/adaptive/23/user/1483003).
+* Наставник: `Internet and https://htmlacademy.ru/study`.
 
 ---
 
