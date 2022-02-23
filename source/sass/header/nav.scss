@@ -1,0 +1,27 @@
+.nav {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  top: 74px;
+  width: 100%;
+  left: 0;
+
+  &__wrapper {
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #192144;
+    text-align: center;
+    margin-bottom: 51px;
+    padding-top: 50px;
+  }
+}
+
+

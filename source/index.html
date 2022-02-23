@@ -15,8 +15,105 @@
 </head>
 
 <body class="page-body">
+  <header class="header">
+    <div class="wrapper">
+      <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
+        <a href="#" class="header__logo">
+          <svg width="97" height="15">
+            <use xlink:href="img/sprite.svg#logo-mobile"></use>
+          </svg>
+        </a>
+        <button class="burger" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <nav class="nav nav--closed">
+          <div class="nav__wrapper">
+            <!-- <button class="burger" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button> -->
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">O сервисе</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Направления</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Попутчики</a>
+              </li>
+            </ul>
+            <a href="#" class="authorization-button button">Aвторизация</a>
+            <ul class="contacts">
+              <li><a class="contacts__phone" href="tel:+88005558628">8&nbsp;800 555-86-28</a></li>
+              <li><a class="contacts__mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></li>
+            </ul>
+            <ul class="social">
+              <li class="social__item">
+                <a href="#">
+                  <span class="visually-hidden">Фейсбук</span>
+                  <svg width="11" height="21">
+                    <use xlink:href="img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item" style="align-self: center;">
+                <a href="#">
+                  <span class="visually-hidden">Вконтакте</span>
+                  <svg width="23" height="12">
+                    <use xlink:href="img/sprite.svg#vkontakte"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item" style="align-self: center;">
+                <a href="#">
+                  <span class="visually-hidden">Инстаграм</span>
+                  <svg width="18" height="18">
+                    <use xlink:href="img/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- <button class="burger" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button> -->
+      </div>
+    </div>
+  </header>
+
+  <main class="main-page">
+    <section class="intro">
+      <div class="wrapper">
+        <div class="intro__block">
+          <h1 class="visually-hidden">Сервис поиска попутчиков для путешествий</h1>
+          <p class="intro__subtitle">В путешествие с крутыми попутчиками!</p>
+        </div>
+        <div class="user-navigation">
+          <ul class="user-navigation__list">
+            <li class="user-navigation__item">
+              <a class="user-navigation__phone" href="tel:+78005558628"></a>
+            </li>
+            <li class="user-navigation__item">
+              <a class="user-navigation__mail" href="mailto:mail@htmlacademy.ru"></a>
+            </li>
+            <li class="user-navigation__item">
+              <a href="№" class="authorization-button authorization-button--intro">Авторизация</a>
+            </li>
+          </ul>
+        </div>
+        <figure class="popular-review">
+          <blockquote class="popular-review__quote">&laquo;Лучшее приложение, что я&nbsp;видел в&nbsp;жизни!&raquo;
+          </blockquote>
+          <figcaption>Мурат Эльтазин главный редактор газеты <cite
+              class="popular-review__company">&laquo;гаджетлайф&raquo;</cite></figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
 
 
+  <script src="js/burger.js"></script>
 
 </body>
 
