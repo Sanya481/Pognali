@@ -1,0 +1,61 @@
+.intro__block {
+  position: relative;
+  padding-bottom: 245px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 86px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 69px;
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 192px;
+    height: 255px;
+    background-image: url("../img/background/traveller-illustration-mobile.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    bottom: -19px;
+    right: 27px;
+    z-index: -1;
+
+    @media (min-width: $tablet-width) {
+    width: 372px;
+    height: 451px;
+    background-image: url("../img/background/traveller-illustration-tablet.png");
+    bottom: -400px;
+    right: 65px;
+    }
+
+    @media (min-width: $desktop-width) {
+    width: 431px;
+    height: 640px;
+    background-image: url("../img/background/traveller-illustration-desktop.png");
+    bottom: -320px;
+    right: -435px;
+    }
+  }
+}
+
+.intro__subtitle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  width: 238px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 70px;
+    width: 400px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    margin: 0;
+  }
+}
