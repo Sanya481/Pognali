@@ -1,0 +1,23 @@
+.intro {
+  @media (max-width: $mobile-width-only) {
+    margin-bottom: 29px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 214px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    padding-bottom: 318px;
+  }
+}
+

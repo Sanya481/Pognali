@@ -1,0 +1,22 @@
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 60px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .header__block.margin {
+    margin-left: 0;
+  }
+}

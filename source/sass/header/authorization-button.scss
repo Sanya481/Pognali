@@ -1,0 +1,56 @@
+.authorization-button {
+  background-color: $basic-yellow;
+  border-radius: 25px;
+  padding: 12px 81px 8px 78px;
+  font-size: 17px;
+  line-height: 30px;
+  color: $basic-blue;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.authorization-button--menu {
+  margin-bottom: 55px;
+}
+
+
+.authorization-button--tablet {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 16px 29px 14px 29px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .authorization-button.authorization-button--desktop {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 16px 28px 14px 29px;
+  }
+}
+
+/* Intro ******************** */
+
+.authorization-button--intro {
+  line-height: 20px;
+  padding: 12px 38px 8px 40px;
+  margin-bottom: 0;
+}

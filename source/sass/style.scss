@@ -2,9 +2,33 @@
 
 @import "global/fonts.scss";
 @import "global/variables.scss";
-@import "global/page.scss";
+@import "global/global-styles.scss";
 
 //Header
 
-@import "header/nav.scss"
+@import "header/header.scss";
+@import "header/header__block.scss";
+@import "header/header__logo.scss";
+@import "header/burger.scss";
+@import "header/authorization-button.scss";
+
+// Navigation
+
+@import "navigation/nav.scss";
+@import "navigation/nav__list.scss";
+@import "navigation/contacts.scss";
+@import "navigation/social.scss";
+
+// sections
+
+// Intro
+
+@import "sections/intro/intro.scss";
+@import "sections/intro/intro__block.scss";
+@import "sections/intro/user-navigation.scss";
+@import "sections/intro/popular-review.scss";
+
+
+
+
 

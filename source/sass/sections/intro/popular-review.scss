@@ -1,0 +1,40 @@
+.popular-review {
+  width: 155px;
+  margin: 0;
+  margin-left: 25px;
+
+  @media (min-width: $tablet-width) {
+    width: 264px;
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    margin-right: 23px;
+  }
+
+  &__quote {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 18px;
+
+    @media (min-width: $tablet-width) {
+      font-size: 28px;
+      line-height: 33px;
+      margin-bottom: 45px;
+    }
+
+    @media (min-width: $desktop-width) {
+      line-height: 32px;
+    }
+  }
+
+  &__company {
+    font-style: normal;
+  }
+}

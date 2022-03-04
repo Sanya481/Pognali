@@ -1,0 +1,88 @@
+.user-navigation.user-navigation--desktop {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    order: 1;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .user-navigation {
+    display: none;
+  }
+}
+
+.user-navigation__list {
+  display: flex;
+}
+
+.user-navigation__list--intro {
+  margin-bottom: 28px;
+}
+
+.user-navigation--desktop.user-navigation__list {
+  margin-bottom: 0;
+}
+
+.user-navigation__phone {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #ff8d30;
+  border-radius: 50%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/decorative/icon-call.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 10px;
+    left: 10px;
+
+    @media (min-width: $desktop-width) {
+      top: 15px;
+      left: 15px;
+    }
+  }
+}
+
+.user-navigation__mail {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #FFBD30;
+  border-radius: 50%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 15.75px;
+    background-image: url("../img/decorative/icon-write-mail.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 12px;
+    left: 10px;
+
+    @media (min-width: $desktop-width) {
+      top: 16px;
+      left: 15px;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .user-navigation__phone--desktop,
+  .user-navigation__mail--desktop {
+    width: 50px;
+    height: 50px;
+  }
+}
